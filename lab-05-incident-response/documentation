@@ -15,3 +15,19 @@ What I did:
 
 Status: Waiting for DNS propagation (1-2 hours)
 Next step: Confirm Active status in Cloudflare then run attack simulation
+
+I set up my GA4(Google analytics) API so that i could set upMicrosoft Sentinel.
+
+I wanted to get hands on experience playing around with MS Sentinel and seeing how the logs differ from the traffic data on GA4 AND cloudflare.
+
+I also wanted to view data packets but i realised ill do that in a different lab.
+
+
+TRAFFIC
+
+I sent a small amount of traffic to my website, i wrote a selinium script in python to send roughly 50-150 visits to my wwebsite whilst following and adhering to the rules that the website 
+im hosting on has.
+
+The goal after sending the traffic through is to learn how to read incoming logs on my SIEM and comparing them to my GA4 and Cloudflare analytics.
+
+
